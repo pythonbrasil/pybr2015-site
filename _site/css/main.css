@@ -162,7 +162,17 @@ a:hover {
     font-size: 13px; } }
 @media (min-width: 320px) and (max-width: 479px) {
   html, body {
-    font-size: 12px; } }
+    font-size: 12px; }
+    html .welcome .header .logo span, body .welcome .header .logo span {
+      font-size: 0.8em; }
+    html .welcome .header .menu .list, body .welcome .header .menu .list {
+      text-align: center; }
+    html .welcome .info h1, body .welcome .info h1 {
+      font-size: 2em; }
+    html .sponsors .sponsors-list .item .imgs img, body .sponsors .sponsors-list .item .imgs img {
+      height: 10em; }
+    html .footer img, body .footer img {
+      padding-right: 1em; } }
 @media (max-width: 319px) {
   html, body {
     font-size: 10px; } }

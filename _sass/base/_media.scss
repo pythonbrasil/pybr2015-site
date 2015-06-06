@@ -19,6 +19,26 @@
 @media(min-width: 320px) and (max-width: 479px) {
   html, body {
     font-size: 12px;
+
+    .welcome .header .logo span {
+      font-size: 0.8em;
+    }
+
+    .welcome .header .menu .list {
+      text-align: center;
+    }
+
+    .welcome .info h1 {
+      font-size: 2em;
+    }
+
+    .sponsors .sponsors-list .item .imgs img {
+      height: 10em;
+    }
+
+    .footer img {
+      padding-right: 1em;
+    }
   }
 }
 
