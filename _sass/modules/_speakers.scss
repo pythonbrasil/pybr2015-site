@@ -24,7 +24,7 @@
       .photo {
         width: 100%;
         background-color: #eaeaea;
-        @include icon("/images/speaker.svg", 50% 50%);
+        @include icon("../images/speaker.svg", 50% 50%);
 
         img {
           width: 100%;

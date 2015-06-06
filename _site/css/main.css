@@ -326,7 +326,7 @@ a:hover {
       .speakers .speakers-list .speaker .photo {
         width: 100%;
         background-color: #eaeaea;
-        background-image: url("/images/speaker.svg");
+        background-image: url("../images/speaker.svg");
         background-size: 50% 50%;
         background-position: center;
         background-repeat: no-repeat; }
