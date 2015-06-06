@@ -1,7 +1,7 @@
 .location {
   text-align: center;
   padding: 8em 0;
-  @include background("/images/place.jpg");
+  @include background("../images/place.jpg");
   position: relative;
 
   &:before {
