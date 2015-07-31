@@ -388,8 +388,14 @@ a:hover {
   padding: 4em 0; }
   .schedule h1 {
     color: #333;
-    margin-bottom: 50px;
     text-align: center; }
+  .schedule .schedule-description {
+    color: #333;
+    text-align: center;
+    margin-bottom: 50px; }
+  .schedule .day-description {
+    color: #333;
+    margin-bottom: 30px; }
   .schedule .days .list {
     font-size: 0;
     list-style: none;
@@ -413,13 +419,14 @@ a:hover {
     .schedule .room.active {
       display: block; }
     .schedule .room h1 {
-      text-align: left;
-      margin: 0 0 25px 0; }
+      text-align: left; }
+    .schedule .room .day-description {
+      margin: 0 0 50px 0; }
     .schedule .room:before {
       content: "";
       position: absolute;
       left: 0;
-      top: 3em;
+      top: 5em;
       height: calc(100% - 4em);
       width: 2px;
       background-color: #ccc; }
