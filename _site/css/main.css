@@ -1,15 +1,19 @@
 @font-face {
   font-family: "Panton Bold";
   src: url("../fonts/Panton-BlackCaps.otf"); }
+
 @font-face {
   font-family: "Panton Bold Italic";
   src: url("../fonts/Panton-BlackitalicCaps.otf"); }
+
 @font-face {
   font-family: "Panton Light";
   src: url("../fonts/Panton-LightCaps.otf"); }
+
 @font-face {
   font-family: "Panton Light Italic";
   src: url("../fonts/Panton-LightitalicCaps.otf"); }
+
 .heading, h1, h2, h3, h4, h5, h6 {
   font-size: 2em;
   font-family: "Panton Bold"; }
@@ -49,15 +53,19 @@ a:hover {
 @font-face {
   font-family: "Panton Bold";
   src: url("../fonts/Panton-BlackCaps.otf"); }
+
 @font-face {
   font-family: "Panton Bold Italic";
   src: url("../fonts/Panton-BlackitalicCaps.otf"); }
+
 @font-face {
   font-family: "Panton Light";
   src: url("../fonts/Panton-LightCaps.otf"); }
+
 @font-face {
   font-family: "Panton Light Italic";
   src: url("../fonts/Panton-LightitalicCaps.otf"); }
+
 .heading, h1, h2, h3, h4, h5, h6 {
   font-size: 2em;
   font-family: "Panton Bold"; }
@@ -141,7 +149,7 @@ a:hover {
     overflow: auto;
     width: 100%; } }
 .link {
-  color: #1D8BF6; }
+  color: #1d8bf6; }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   html, body {
@@ -178,7 +186,7 @@ a:hover {
   font-family: "Panton Bold";
   font-size: .875em;
   color: #fff;
-  background-color: #F0CB1F;
+  background-color: #f0cb1f;
   cursor: pointer;
   border: none;
   text-align: center;
@@ -192,7 +200,7 @@ a:hover {
     -webkit-box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.25), 0 1px 0 rgba(255, 255, 255, 0.3); }
   .btn:disabled, .welcome .info .register:disabled {
     opacity: .5;
-    background-color: #F0CB1F; }
+    background-color: #f0cb1f; }
   @media (max-width: 479px) {
     .btn, .welcome .info .register {
       min-width: 0;
@@ -251,7 +259,7 @@ a:hover {
             text-decoration: none;
             margin: 1em; }
             .welcome .header .menu .list .item .item-link:hover, .welcome .header .menu .list .item .item-link .active {
-              color: #F0CB1F; }
+              color: #f0cb1f; }
     @media (max-width: 1023px) {
       .welcome .header .logo, .welcome .header .menu {
         display: block;
@@ -397,7 +405,7 @@ a:hover {
         color: #333; }
         .schedule .days .list .item .item-link:hover, .schedule .days .list .item .item-link.active {
           color: #fff;
-          background-color: #1D8BF6; }
+          background-color: #1d8bf6; }
   .schedule .room {
     position: relative;
     margin-top: 50px;
@@ -431,7 +439,7 @@ a:hover {
         border: solid 2px #ccc;
         background-color: white; }
       .schedule .room .lecture .title {
-        color: #1D8BF6;
+        color: #1d8bf6;
         font-family: "Panton Light"; }
         .schedule .room .lecture .title time {
           color: #333;
