@@ -1,6 +1,6 @@
 .location {
   text-align: center;
-  padding: 8em 0;
+  padding: 8em 0 10em 0;
   @include background("../images/place.jpg");
   position: relative;
 
@@ -29,5 +29,27 @@
   .link {
     color: #fff;
     font-family: "Panton Light";
+  }
+
+  .rates {
+    margin-top: 50px;
+  }
+
+  .tax {
+    float: left;
+    width: 50%;
+
+    h2 {
+      font-size: 1em;
+    }
+  }
+
+  @media(max-width: 479px) {
+    padding-bottom: 18em;
+
+    .tax {
+      width: 100%;
+      margin-bottom: 2em;
+    }
   }
 }
