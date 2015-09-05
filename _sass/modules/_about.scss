@@ -2,43 +2,38 @@
   padding: 4em 0;
   @include clearfix;
 
-  .conference, .staff {
+  .column {
+    width: 50%;
+    padding: 0 5%;
+    text-align: center;
     float: left;
-    width: calc(50% - 4em);
-
-    img {
-      border: solid 1px #cecece;
-      border-radius: 50%;
-      padding: 1em;
-      width: 6em;
-      height: 6em;
-      float: left;
-      margin: 0 2em 2em 0;
-    }
-
-    .content {
-      h1, p {
-        color: #333;
-      }
-
-      h1 {
-        margin-bottom: 15px;
-      }
-    }
   }
 
-  .staff {
-    margin-left: 8em;
+  img {
+    border: solid 1px #cecece;
+    border-radius: 50%;
+    padding: 1em;
+    width: 7em;
+    height: 7em;
+    margin-bottom: 2em;
+  }
+
+  h1, p {
+    color: #333;
+    margin-bottom: .5em;
+  }
+
+  a {
+    color: $blue;
   }
 
   @media(max-width: 479px) {
-    .conference, .staff {
+    .column {
       width: 100%;
-      margin: 0;
     }
 
-    .staff {
-      margin-top: 4em;
+    .column:first-child {
+      margin-bottom: 5em;
     }
   }
 }
