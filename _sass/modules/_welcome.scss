@@ -2,10 +2,6 @@
   @include background("../images/background.jpg", cover, center top);
   position: relative;
 
-  @media(max-width: 1023px) {
-    text-align: center;
-  }
-
   &:before {
     content: "";
     position: absolute;
@@ -23,25 +19,22 @@
     padding: 2em 0;
     border-bottom: solid 1px rgba(255, 255, 255, 0.5);
 
-    .logo, .menu {
-      @extend .v-align;
-    }
-
     .logo {
       @extend .fit;
+      width: 30%;
+      float: left;
 
       img, span {
-        display: inline-block;
         vertical-align: middle;
       }
 
       img {
-        width: 2em;
-        margin-right: 1em;
+        width: 1.5em;
+        margin-right: .5em;
       }
 
       span {
-        color: #fff;
+        font-size: .7em;
         font-family: "Panton Light";
 
         strong {
@@ -51,12 +44,9 @@
     }
 
     .menu {
-      width: 100%;
+      width: 70%;
+      float: right;
       text-align: right;
-
-      .trigger {
-        display: none;
-      }
 
       .list {
         display: inline-block;
@@ -83,17 +73,15 @@
     }
 
     @media(max-width: 1023px) {
-      .logo, .menu {
-        display: block;
+      .logo {
+        width: 100%;
+        margin-bottom: 20px;
         text-align: center;
       }
 
-      .logo {
-        width: auto;
-      }
-
       .menu {
-        margin-top: 1em;
+        width: 100%;
+        text-align: center;
       }
     }
   }
@@ -103,7 +91,7 @@
     padding: 8em 0 4em 0;
 
     h1 {
-      font-size: 4em;
+      font-size: 3.5em;
       font-family: "Panton Light";
     }
 
