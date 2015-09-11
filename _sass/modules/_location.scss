@@ -31,8 +31,14 @@
     font-family: "Panton Light";
   }
 
+  .booking {
+    padding: 1em 8em;
+    font-size: .8em;
+  }
+
   .rates {
     margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .tax {
@@ -46,6 +52,10 @@
 
   @media(max-width: 479px) {
     padding-bottom: 18em;
+
+    .booking {
+      padding: 1em 1.5em;
+    }
 
     .tax {
       width: 100%;
