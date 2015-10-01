@@ -68,8 +68,8 @@
       content: "";
       position: absolute;
       left: 0;
-      top: 25%;
-      height: calc(100% - 6em);
+      top: 5em;
+      height: calc(100% - 2em);
       width: 2px;
       background-color: #ccc;
     }
@@ -92,20 +92,66 @@
         background-color: white;
       }
 
-      .title {
+      time {
+        color: #333;
+        font-family: "Panton Bold";
+      }
+
+      .hour {
+        margin-bottom: 1em;
+      }
+
+      .track {
+        display: inline;
+        padding: .2em .6em;
+        font-size: 75%;
+        font-weight: 700;
+        line-height: 1;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: .25em;
+      }
+
+      .track-keynote {
+        background-color: #777;
+      }
+
+      .track-lightning-talk {
+        background-color: #d9534f;
+      }
+
+      .track-career {
+        background-color: #337ab7;
+      }
+
+      .track-web {
+        background-color: #f0ad4e;
+      }
+
+      .track-pydata {
+        background-color: #5bc0de;
+      }
+
+      .track-iniciantes {
+        background-color: #5cb85c;
+      }
+
+      .talk {
         color: $blue;
         font-family: "Panton Light";
-
-        time {
-          color: #333;
-          font-family: "Panton Bold";
-        }
+        padding-bottom: 0px;
       }
 
       .speaker {
-        margin-top: .5em;
-        font-family: "Panton Light";
+        font-family: "Helvetica", sans-serif;
         color: #333;
+        margin-bottom: 1.5em;
+      }
+
+      .speaker:last-child {
+        margin-bottom: 4em;
       }
     }
   }
