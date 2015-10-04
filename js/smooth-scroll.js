@@ -486,7 +486,7 @@
 smoothScroll.init({
     speed: 1500,
     easing: 'easeInOutCubic',
-    offset: 0,
+    offset: 60,
     updateURL: true,
     callback: function ( toggle, anchor ) {}
 });
