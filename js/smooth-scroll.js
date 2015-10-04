@@ -490,3 +490,11 @@ smoothScroll.init({
     updateURL: true,
     callback: function ( toggle, anchor ) {}
 });
+
+$(window).scroll( $.debounce(200, function() {
+    if($(this).scrollTop() > 300) {
+        TweenMax.to($(".menu-scroll"), 0.5, {top:0, ease:Cubic.easeInOut});
+    } else {
+        TweenMax.to($(".menu-scroll"), 0.2, {top:-70, ease:Cubic.easeInOut});
+    }
+}));
