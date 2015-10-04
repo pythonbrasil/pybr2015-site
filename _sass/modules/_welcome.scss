@@ -34,7 +34,7 @@
       }
 
       span {
-        font-size: .7em;
+        font-size: .55em;
         font-family: "Panton Light";
 
         strong {
@@ -44,9 +44,8 @@
     }
 
     .menu {
-      width: 70%;
-      float: right;
-      text-align: right;
+      float: left;
+      text-align: left;
 
       .list {
         display: inline-block;
@@ -73,39 +72,43 @@
     }
 
     .menu-scroll {
-        position: fixed;
-        background-color: #1B77D8;
-        z-index: 999;
-        top: 0;
-        width: 100%;
-        left: 0;
-        padding: 5px 30px;
-        display: table;
-        top: -70px;
+      position: fixed;
+      background-color: #1B77D8;
+      z-index: 999;
+      top: 0;
+      width: 100%;
+      left: 0;
+      padding: 5px 30px;
+      display: table;
+      top: -70px;
 
-        .logo {
-            display: table-cell;
-            vertical-align: middle;
-            float: none;
-            span {
-                font-size: .55em;
-            }
-            img {
-                width: 35px;
-            }
-        }
+      .logo {
+          display: table-cell;
+          vertical-align: middle;
+          float: none;
+          span {
+              font-size: .55em;
+          }
+          img {
+              width: 35px;
+          }
+      }
     }
 
-    @media(max-width: 1023px) {
-      .logo {
-        width: 100%;
-        margin-bottom: 20px;
-        text-align: center;
+    @media(max-width: 905px) {
+      .menu .list {
+        font-size: .8em;
+        vertical-align: middle;
+      }
+    }
+
+    @media(max-width: 767px) {
+      .menu-scroll {
+        display: none;
       }
 
       .menu {
-        width: 100%;
-        text-align: center;
+        display: none;
       }
     }
   }
