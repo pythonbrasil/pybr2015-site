@@ -82,16 +82,25 @@
       display: table;
       top: -70px;
 
+      .center {
+        max-width: 1200px;
+        margin: auto;
+        display: block;
+      }
+
       .logo {
-          display: table-cell;
-          vertical-align: middle;
-          float: none;
+          float: left;
+          margin-top: 6px;
           span {
               font-size: .55em;
           }
           img {
               width: 35px;
           }
+      }
+
+      .menu {
+        float: right;
       }
     }
 
