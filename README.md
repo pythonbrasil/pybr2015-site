@@ -15,6 +15,16 @@ $ gem install jekyll
 $ jekyll serve
 ```
 
+### Gulp
+
+```
+# To install gulp deps
+$ npm install
+
+# If you need to rebuild javascript
+$ gulp
+```
+
 ### Using a browser, go to:
 
 ```

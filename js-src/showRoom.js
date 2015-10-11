@@ -1,4 +1,4 @@
-$(function(){
+$(document).ready(function(){
   showRoom();
 
   function showRoom(){
@@ -11,6 +11,6 @@ $(function(){
 
       $(this).addClass("active");
       $(dayId).addClass("active");
-    })
+    });
   }
-})
+});
