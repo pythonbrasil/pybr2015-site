@@ -1,153 +1,105 @@
-<style>
-    
-    table{
-        border-collapse: none;
-    }
-    th{min-width: 40px;}
-    td{padding: 20px; }
-    th, td{border-left:2px solid #ccc;}
-</style>
 <div class="room active" id="day7">
-    <h1>Tutoriais</h1>
+  <h1>Tutoriais</h1>
+  <p class="day-description">Tutoriais são treinamentos de 2 a 8 horas para você se tornar um Jedi.</p>
 
-    <div class="lecture">
-        <p class="title"><time>08:00</time> - Início dos tutoriais</p>
-        <p class="speaker">
-        <table>
-            <thead>
-                <tr>
-                    <th>Sala 1</th>
-                    <th>Sala 2</th>
-                    <th>Sala 3</th>
-                    <th>Sala 4</th>
-                    <th>Sala 5</th>
-                    <th>Sala 6</th>
-                    <th>Sala 7</th>
-                    <th>Sala 8</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>De geradores com yield a co-rotinas com await: concorrência moderna em Python(Luciano Ramalho)</td>
-                    <td>Hackeando Dados Públicos com Python (Fernando Masanori)</td>
-                    <td>Criando apis com o Django REST framework 3 (hugobrilhante)</td>
-                    <td>Python na palma da mão (Lucas R.)</td>
-                    <td>Python no QGIS(lmotta)</td>
-                    <td>Ciência de Dados & Python - Ferramentas essenciais para todo Data Scientist (jrpequeno)</td>
-                    <td>Formação dos times do Django Gilrs</td>
-                    <td>Formação dos times do Django Gilrs</td>
-                </tr>
-            </tbody>
-        </table>
-        </p>
-    </div>
+  <div class="lecture">
+    <p class="hour"><time>08:00</time></p>
 
-    <div class="lecture">
-        <p class="title"><time>09:00</time> - Coffee Break</p>
-    </div>
+    <p><span class="track track-tutorials">#sala1</span></p>
+    <p class="talk">De geradores com yield a co-rotinas com await: concorrência moderna em Python</p>
+    <p class="speaker">Por Luciano Ramalho</p>
 
-    <div class="lecture">
-        <p class="title"><time>10:00</time> - Retorno dos tutoriais</p>
-        <p class="speaker">
-            <table>
-            <thead>
-                <th>
-                    <td>Sala 1</td>
-                    <td>Sala 2</td>
-                    <td>Sala 3</td>
-                    <td>Sala 4</td>
-                    <td>Sala 5</td>
-                    <td>Sala 6</td>
-                    <td>Sala 7</td>
-                    <td>Sala 8</td>
-                </th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </td>
-                    <td>Programação científica com Python e SciPy (Alexandre)</td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                </tr>
-            </tbody>
-            </table>
+    <p><span class="track track-tutorials">#sala2</span></p>
+    <p class="talk">Hackeando Dados Públicos com Python</p>
+    <p class="speaker">Por Fernando Masanori</p>
 
-        </p>
-    </div>
+    <p><span class="track track-tutorials">#sala3</span></p>
+    <p class="talk">Criando apis com o Django REST framework 3</p>
+    <p class="speaker">Por hugobrilhante</p>
 
-    <div class="lecture">
-        <p class="title"><time>12:00</time> - Almoço</p>
-        <p class="speaker">Almoço</p>
-    </div>
+    <p><span class="track track-tutorials">#sala4</span></p>
+    <p class="talk">Python na palma da mão</p>
+    <p class="speaker">Por Lucas R.</p>
 
-    <div class="lecture">
-        <p class="title"><time>13:00</time> - Almoço</p>
-        <p class="speaker">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Sala 1</th>
-                        <th>Sala 2</th>
-                        <th>Sala 3</th>
-                        <th>Sala 4</th>
-                        <th>Sala 5</th>
-                        <th>Sala 6</th>
-                        <th>Sala 7</th>
-                        <th>Sala 8</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>asyncio from the ground up (David Beasley)</td>
-                        <td>A detecção de anomalias trabalhando com dados em tempo real (Maurício Roman)</td>
-                        <td>Introdução a Kivy e Buildozer para Python Mobile (aron-bordin)</td>
-                        <td>Capturando dados com Python (Turicas)</td>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                        <td>Django, além do Hello World (igr-santos)</td>
-                        <td>Workshop  Django Girls</td>
-                        <td>Workshop  Django Girls</td>
-                    </tr>
-                </tbody>
-            </table>
+    <p><span class="track track-tutorials">#sala5</span></p>
+    <p class="talk">Python no QGIS</p>
+    <p class="speaker">Por lmotta</p>
 
-        </p>
-    </div>
-    <div class="lecture">
-        <p class="title"><time>15:00</time> - Almoço</p>
-        <p class="speaker">
+    <p><span class="track track-tutorials">#sala6</span></p>
+    <p class="talk">Ciência de Dados & Python - Ferramentas essenciais para todo Data Scientist</p>
+    <p class="speaker">Por jrpequeno</p>
 
-            <table>
-                <thead>
-                    <tr>
-                        <th>Sala 1</th>
-                        <th>Sala 2</th>
-                        <th>Sala 3</th>
-                        <th>Sala 4</th>
-                        <th>Sala 5</th>
-                        <th>Sala 6</th>
-                        <th>Sala 7</th>
-                        <th>Sala 8</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                        <td>NES Hacks (Guto Maia)</td>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                        <td>Workshop  Django Girls</td>
-                        <td>Workshop  Django Girls</td>
-                    </tr>
-                </tbody>
-            </table>
+    <p><span class="track track-tutorials">#sala7</span></p>
+    <p class="talk">Formação dos times do Django Girls</p>
+    <p class="speaker">Por Django Girls</p>
 
-        </p>
-    </div>
+    <p><span class="track track-tutorials">#sala8</span></p>
+    <p class="talk">Formação dos times do Django Girls</p>
+    <p class="speaker">Por Django Girls</p>
+  </div>
 
+  <div class="lecture">
+    <p class="hour"><time>10:00</time></p>
+    <p><span class="track track-tutorials">#sala1</span></p>
+    <p class="talk">Programação científica com Python e SciPy</p>
+    <p class="speaker">Por Alexandre</p>
+  </div>
+
+  <div class="lecture">
+    <p class="hour"><time>12:00</time></p>
+    <p class="talk">Almoço</p>
+    <p class="speaker"></p>
+  </div>
+
+  <div class="lecture">
+    <p class="hour"><time>13:00</time></p>
+
+    <p><span class="track track-tutorials">#sala1</span></p>
+    <p class="talk">Asyncio from the ground up</p>
+    <p class="speaker">Por David Beasley</p>
+
+    <p><span class="track track-tutorials">#sala2</span></p>
+    <p class="talk">A detecção de anomalias trabalhando com dados em tempo real</p>
+    <p class="speaker">Por Maurício Roman</p>
+
+    <p><span class="track track-tutorials">#sala3</span></p>
+    <p class="talk">Introdução a Kivy e Buildozer para Python Mobile</p>
+    <p class="speaker">Por aron-bordin</p>
+
+    <p><span class="track track-tutorials">#sala4</span></p>
+    <p class="talk">Capturando dados com Python</p>
+    <p class="speaker">Por Turicas</p>
+
+    <p><span class="track track-tutorials">#sala5</span></p>
+    <p class="talk">-</p>
+    <p class="speaker">-</p>
+
+    <p><span class="track track-tutorials">#sala6</span></p>
+    <p class="talk">Django, além do Hello World</p>
+    <p class="speaker">Por igr-santos</p>
+
+    <p><span class="track track-tutorials">#sala7</span></p>
+    <p class="talk">Workshop Django Girls</p>
+    <p class="speaker">Por Django Girls</p>
+
+    <p><span class="track track-tutorials">#sala8</span></p>
+    <p class="talk">Workshop Django Girls</p>
+    <p class="speaker">Por Django Girls</p>
+  </div>
+
+  <div class="lecture">
+    <p class="hour"><time>15:00</time></p>
+
+    <p><span class="track track-tutorials">#sala3</span></p>
+    <p class="talk">NES Hacks</p>
+    <p class="speaker">Por Guto Maia</p>
+
+    <p><span class="track track-tutorials">#sala7</span></p>
+    <p class="talk">Workshop Django Girls</p>
+    <p class="speaker">Por Django Girls</p>
+
+    <p><span class="track track-tutorials">#sala8</span></p>
+    <p class="talk">Workshop Django Girls</p>
+    <p class="speaker">Por Django Girls</p>
+  </div>
 </div>
